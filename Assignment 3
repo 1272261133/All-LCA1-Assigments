@@ -8,4 +8,8 @@ def pythaguras(a,b,c):
   else:
     print("It is not a right angle triangle")
 
-pythaguras(4,3,5)
+side0=int(input("Enter the length of the first side of the triangle:"))
+side1=int(input("Enter the length of the second side of the triangle:"))
+side2=int(input("Enter the length of the third side of the triangle:"))
+
+pythaguras(side0,side1,side2)
